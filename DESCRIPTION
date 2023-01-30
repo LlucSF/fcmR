@@ -1,0 +1,15 @@
+Package: fcmR
+Type: Package
+Title: Fuzzy c means open implementation
+Version: 0.9.1
+Date: 2022-11-21
+Encoding: UTF-8
+Author: Lluc Semente Fernandez
+Maintainer: Lluc Semente Fernandez<lluc.semente@iispv.cat>
+Description: Fuzzy C means for MSI
+License: GPL3
+LazyData: TRUE
+Depends:
+    R (>= 3.6)
+LinkingTo: Rcpp
+RoxygenNote: 7.2.3
