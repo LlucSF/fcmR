@@ -12,6 +12,7 @@
 #'
 fuzzyCmeans <- function(intensityMatrix, numberOfClusters = 2, ROIs = NULL, m = 2 , maxIterations = 100, epsilon = 1e-4, verbose = FALSE)
 {
+  dyn.load(list.files(find.package("fcmR"),".dll",recursive = T,full.names = T))
   if(m < 1)
   {
     writeLines("The parameter 'm' can't be less than 1, using m = 1 ...")
